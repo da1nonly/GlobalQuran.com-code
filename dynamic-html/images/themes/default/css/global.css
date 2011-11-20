@@ -1302,7 +1302,7 @@ noscript p {
 		text-align:right;
 	}
 	.ayahs .ayah:hover, .ayahs .group:hover, .ayahs .mouseOver {
-		background-color: #ffffee;	
+		background-color: #ffff;	
 	}
 	.ayahs .selected, .ayahs .selected:hover {
 		background-color: #f9fbff;
@@ -1329,15 +1329,16 @@ noscript p {
 		padding: 4px;
 	}
 	.ltr .group .ayah {
-		margin-left: 90px;
+		
 	}
 	.rtl .group .ayah {
-		margin-right:90px;
+		
 	}
 	.ltr .ayahs .group .ayahNumber {
 		float: left;
 		color:#999;
 		font-weight: bold;
+		
 	}
 	.rtl .ayahs .group .ayahNumber {
 		float: right;
@@ -1375,8 +1376,7 @@ noscript p {
 		white-space: nowrap;
 	}
 	.word {
-		margin-left: 8px;
-		margin-right: 8px;
+		cursor: pointer;
 		display:-moz-inline-stack;
 		display:inline-block;
 		zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
@@ -1389,7 +1389,7 @@ noscript p {
 		text-align: center;
 	}
 	.staticWord:hover {
-		background-color:#ffffee;
+		background-color:#eee;
 	}
 	.word .first {
 		display:block;
@@ -1404,6 +1404,11 @@ noscript p {
 		color: #3B5998;
 		text-decoration:overline;
 	}
+	.en .second{
+	font-size: 20%;
+	}
+	.ayah .ltr{ font-size: 65%;}
+	.tran{ font-size: 45%;}
 	
 #result {
 	height:auto;		
