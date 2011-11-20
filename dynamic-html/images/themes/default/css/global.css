@@ -1240,7 +1240,8 @@ noscript p {
 		}
 		#gqContent .medium .quranText {
 			font-size:130%;
-			font-weight: bold;
+			color: #000;
+			
 		}
 		#gqContent .large .quranText  {
 			font-size:135%;	
